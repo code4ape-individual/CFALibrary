@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "code4ape" => "junjie_deng@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CFALibrary.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/code4ape-individual/CFALibrary.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
