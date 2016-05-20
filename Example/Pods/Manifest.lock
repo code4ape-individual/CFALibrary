@@ -1,0 +1,16 @@
+PODS:
+  - CFALibrary (0.1.0)
+
+DEPENDENCIES:
+  - CFALibrary (from `../`)
+
+EXTERNAL SOURCES:
+  CFALibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CFALibrary: dc687ea0f7b9a7295f2b4c7463d20ed511e4433b
+
+PODFILE CHECKSUM: 6db27dc5eca543795f9273e6f47d4b7e472b3b0a
+
+COCOAPODS: 1.0.0.beta.8

@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224A0FDA1FA7A5AE0A9A2A92A0AED11D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		2CA89978BD7D124CE50A278B569D9E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		554CE6FB3BC2AE3B08769BDF18A40926 /* UIColor+CFA.h in Headers */ = {isa = PBXBuildFile; fileRef = ADDA238C6B91D517C9E046535445575C /* UIColor+CFA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADE5CB7D3C0E3A568FE3556B081E0DAA /* Pods-CFALibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE6C6154DA155AE10CBA390DC943201 /* Pods-CFALibrary_Example-dummy.m */; };
+		BED5FE9E47BD69872BC092DC7B400A78 /* UIColor+CFA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDFB77C899B0A5DEF024A92FDC3D51F /* UIColor+CFA.m */; };
+		D2A0B1721AA94EA9B30261451992AEBF /* CFALibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2669D16491650871C6EC359B1F8B4515 /* CFALibrary-dummy.m */; };
+		EFBD9A503222D1F7BF65879171061D2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		F44E7D92869DC0181B391ADA2E2C75AD /* Pods-CFALibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49205D89108F6F80806636D5AF9D0AE1 /* Pods-CFALibrary_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22ED8272649E23578F83C9B23FDE0557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA72F059CCE47181B3CFCE85C2A2CBF9;
+			remoteInfo = CFALibrary;
+		};
+		463D18C6E0A01BE045FE80AF71B68678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA72F059CCE47181B3CFCE85C2A2CBF9;
+			remoteInfo = CFALibrary;
+		};
+		76027F925870651FB622C8FA0A2481FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4433EF569163CEE136170857E6DAC49;
+			remoteInfo = "CFALibrary-CFALibrary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062AE07608FADD1184AF4734BE0E6FE2 /* Pods-CFALibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFALibrary_Tests-resources.sh"; sourceTree = "<group>"; };
+		2164F93B0C4DCDFF03AD4E7287A87969 /* CFALibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFALibrary.xcconfig; sourceTree = "<group>"; };
+		221F7A4D1415C6370B19E23E29095CBF /* Pods-CFALibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFALibrary_Example-resources.sh"; sourceTree = "<group>"; };
+		2549F48FDEE3D985983BEF4924B026E9 /* Pods-CFALibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFALibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2669D16491650871C6EC359B1F8B4515 /* CFALibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CFALibrary-dummy.m"; sourceTree = "<group>"; };
+		2BE6C6154DA155AE10CBA390DC943201 /* Pods-CFALibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFALibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		2D24AF0AA04507AE6919815E65CC50A1 /* libPods-CFALibrary_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CFALibrary_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		319B4BFB18E04E04B095671D7947B8EA /* ResourceBundle-CFALibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CFALibrary-Info.plist"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49205D89108F6F80806636D5AF9D0AE1 /* Pods-CFALibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFALibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		4CB3A719A38B9CD5583C25DA02728F41 /* libPods-CFALibrary_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CFALibrary_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB5831250D959957E40B294F47F5D95 /* Pods-CFALibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFALibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		52AA25AF768DD7C0D1F3C59F96A0429E /* Pods-CFALibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFALibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		55F4CE5C5D568AE46494E748D5F3797F /* libCFALibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCFALibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73499CE7F64C385F15728E3E493BC38E /* Pods-CFALibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFALibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7E35C3EDE9D02C374F0D3EEBDA5B7817 /* Pods-CFALibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFALibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDFB77C899B0A5DEF024A92FDC3D51F /* UIColor+CFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CFA.m"; sourceTree = "<group>"; };
+		A555EFFFDEE2244D84ABE008A423C0F7 /* CFALibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFALibrary-prefix.pch"; sourceTree = "<group>"; };
+		A738CD9500C8A86428E6B143D2ACD593 /* Pods-CFALibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFALibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8B664675FFDE547BCF3CA91C4C330C2 /* CFALibrary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFALibrary.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDA238C6B91D517C9E046535445575C /* UIColor+CFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CFA.h"; sourceTree = "<group>"; };
+		BBA8F60F5129D78D93B6075238FB17B0 /* Pods-CFALibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFALibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0047EC936F59855760742E5DEABB926 /* Pods-CFALibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CFALibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C19F6CB304C99F759FD47BFC65574134 /* Pods-CFALibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFALibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E806CD2FA32904BC6F3BDA67C41B4865 /* Pods-CFALibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CFALibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		283F39C9AC36EEACB56B1ED920D6E973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F1F1261984DF8EEE1C32DEE95D1118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224A0FDA1FA7A5AE0A9A2A92A0AED11D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64720BFEE207572A496B80AC5FC174AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA89978BD7D124CE50A278B569D9E09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4ED106D699FCE4892D09095D1503142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBD9A503222D1F7BF65879171061D2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5E185DA5DE744C44E57595FE28585 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ADDA238C6B91D517C9E046535445575C /* UIColor+CFA.h */,
+				9EDFB77C899B0A5DEF024A92FDC3D51F /* UIColor+CFA.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		27D6EF750CF289A11F3D9B154669A2E9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54D4353DECBC390F15EC8B76363AAB40 /* Pods-CFALibrary_Example */,
+				7623947AD9044112B1E2CE50DD1F6FFA /* Pods-CFALibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E5C433CD18911276587CCB3C727D776 /* CFALibrary */ = {
+			isa = PBXGroup;
+			children = (
+				7C4B4CAA1C3201789034A1FE6A0FD35C /* CFALibrary */,
+				E8E35E0C42BD2A6A6075EC6DCF4FFFA8 /* Support Files */,
+			);
+			name = CFALibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		54D4353DECBC390F15EC8B76363AAB40 /* Pods-CFALibrary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C0047EC936F59855760742E5DEABB926 /* Pods-CFALibrary_Example-acknowledgements.markdown */,
+				BBA8F60F5129D78D93B6075238FB17B0 /* Pods-CFALibrary_Example-acknowledgements.plist */,
+				2BE6C6154DA155AE10CBA390DC943201 /* Pods-CFALibrary_Example-dummy.m */,
+				7E35C3EDE9D02C374F0D3EEBDA5B7817 /* Pods-CFALibrary_Example-frameworks.sh */,
+				221F7A4D1415C6370B19E23E29095CBF /* Pods-CFALibrary_Example-resources.sh */,
+				52AA25AF768DD7C0D1F3C59F96A0429E /* Pods-CFALibrary_Example.debug.xcconfig */,
+				73499CE7F64C385F15728E3E493BC38E /* Pods-CFALibrary_Example.release.xcconfig */,
+			);
+			name = "Pods-CFALibrary_Example";
+			path = "Target Support Files/Pods-CFALibrary_Example";
+			sourceTree = "<group>";
+		};
+		7623947AD9044112B1E2CE50DD1F6FFA /* Pods-CFALibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E806CD2FA32904BC6F3BDA67C41B4865 /* Pods-CFALibrary_Tests-acknowledgements.markdown */,
+				4FB5831250D959957E40B294F47F5D95 /* Pods-CFALibrary_Tests-acknowledgements.plist */,
+				49205D89108F6F80806636D5AF9D0AE1 /* Pods-CFALibrary_Tests-dummy.m */,
+				2549F48FDEE3D985983BEF4924B026E9 /* Pods-CFALibrary_Tests-frameworks.sh */,
+				062AE07608FADD1184AF4734BE0E6FE2 /* Pods-CFALibrary_Tests-resources.sh */,
+				A738CD9500C8A86428E6B143D2ACD593 /* Pods-CFALibrary_Tests.debug.xcconfig */,
+				C19F6CB304C99F759FD47BFC65574134 /* Pods-CFALibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-CFALibrary_Tests";
+			path = "Target Support Files/Pods-CFALibrary_Tests";
+			sourceTree = "<group>";
+		};
+		7C4B4CAA1C3201789034A1FE6A0FD35C /* CFALibrary */ = {
+			isa = PBXGroup;
+			children = (
+				03C5E185DA5DE744C44E57595FE28585 /* Classes */,
+			);
+			path = CFALibrary;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				95E9824BDB380D8C198BE41593C310B1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				82B3E12F95518E5A70BA0479AD8027AF /* Products */,
+				27D6EF750CF289A11F3D9B154669A2E9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82B3E12F95518E5A70BA0479AD8027AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8B664675FFDE547BCF3CA91C4C330C2 /* CFALibrary.bundle */,
+				55F4CE5C5D568AE46494E748D5F3797F /* libCFALibrary.a */,
+				2D24AF0AA04507AE6919815E65CC50A1 /* libPods-CFALibrary_Example.a */,
+				4CB3A719A38B9CD5583C25DA02728F41 /* libPods-CFALibrary_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95E9824BDB380D8C198BE41593C310B1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E5C433CD18911276587CCB3C727D776 /* CFALibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8E35E0C42BD2A6A6075EC6DCF4FFFA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2164F93B0C4DCDFF03AD4E7287A87969 /* CFALibrary.xcconfig */,
+				2669D16491650871C6EC359B1F8B4515 /* CFALibrary-dummy.m */,
+				A555EFFFDEE2244D84ABE008A423C0F7 /* CFALibrary-prefix.pch */,
+				319B4BFB18E04E04B095671D7947B8EA /* ResourceBundle-CFALibrary-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CFALibrary";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C37BB02134EFCB6FB458506BF306EE4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554CE6FB3BC2AE3B08769BDF18A40926 /* UIColor+CFA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		375B3935D3E6F2829123C3665690DE6E /* Pods-CFALibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BECF786A317AA813761B265DB2DAA1A /* Build configuration list for PBXNativeTarget "Pods-CFALibrary_Tests" */;
+			buildPhases = (
+				DC88E5A59267E781CABADF49DDE51450 /* Sources */,
+				B4ED106D699FCE4892D09095D1503142 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4D29BE57B0E5C80ACFF26A60259B046 /* PBXTargetDependency */,
+			);
+			name = "Pods-CFALibrary_Tests";
+			productName = "Pods-CFALibrary_Tests";
+			productReference = 4CB3A719A38B9CD5583C25DA02728F41 /* libPods-CFALibrary_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA72F059CCE47181B3CFCE85C2A2CBF9 /* CFALibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05EB16EE2150002A142B49E074AE476B /* Build configuration list for PBXNativeTarget "CFALibrary" */;
+			buildPhases = (
+				CBCBB09DA8169D6327C4C5C9C9AB30E2 /* Sources */,
+				43F1F1261984DF8EEE1C32DEE95D1118 /* Frameworks */,
+				C37BB02134EFCB6FB458506BF306EE4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64C8E205EB0014B2201BF9C11B9F4D56 /* PBXTargetDependency */,
+			);
+			name = CFALibrary;
+			productName = CFALibrary;
+			productReference = 55F4CE5C5D568AE46494E748D5F3797F /* libCFALibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AAF103E405A6730ECCBAE7FE45BBB5DF /* Pods-CFALibrary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE05EF833B36F18225A3063CD8CD2F98 /* Build configuration list for PBXNativeTarget "Pods-CFALibrary_Example" */;
+			buildPhases = (
+				2C9BF73943045306847E4AD659D42528 /* Sources */,
+				64720BFEE207572A496B80AC5FC174AF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F3C8F0748F3983668A0B61AA1EDF1C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CFALibrary_Example";
+			productName = "Pods-CFALibrary_Example";
+			productReference = 2D24AF0AA04507AE6919815E65CC50A1 /* libPods-CFALibrary_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F4433EF569163CEE136170857E6DAC49 /* CFALibrary-CFALibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E271DFB1981E80F750CA2C3133D872 /* Build configuration list for PBXNativeTarget "CFALibrary-CFALibrary" */;
+			buildPhases = (
+				3C48FEBDBDB72743C1C79585F46A657B /* Sources */,
+				283F39C9AC36EEACB56B1ED920D6E973 /* Frameworks */,
+				7F659D7C581EBC707789084DC85A5E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CFALibrary-CFALibrary";
+			productName = "CFALibrary-CFALibrary";
+			productReference = A8B664675FFDE547BCF3CA91C4C330C2 /* CFALibrary.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 82B3E12F95518E5A70BA0479AD8027AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA72F059CCE47181B3CFCE85C2A2CBF9 /* CFALibrary */,
+				F4433EF569163CEE136170857E6DAC49 /* CFALibrary-CFALibrary */,
+				AAF103E405A6730ECCBAE7FE45BBB5DF /* Pods-CFALibrary_Example */,
+				375B3935D3E6F2829123C3665690DE6E /* Pods-CFALibrary_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F659D7C581EBC707789084DC85A5E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C9BF73943045306847E4AD659D42528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE5CB7D3C0E3A568FE3556B081E0DAA /* Pods-CFALibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C48FEBDBDB72743C1C79585F46A657B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCBB09DA8169D6327C4C5C9C9AB30E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A0B1721AA94EA9B30261451992AEBF /* CFALibrary-dummy.m in Sources */,
+				BED5FE9E47BD69872BC092DC7B400A78 /* UIColor+CFA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC88E5A59267E781CABADF49DDE51450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44E7D92869DC0181B391ADA2E2C75AD /* Pods-CFALibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64C8E205EB0014B2201BF9C11B9F4D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CFALibrary-CFALibrary";
+			target = F4433EF569163CEE136170857E6DAC49 /* CFALibrary-CFALibrary */;
+			targetProxy = 76027F925870651FB622C8FA0A2481FC /* PBXContainerItemProxy */;
+		};
+		9F3C8F0748F3983668A0B61AA1EDF1C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CFALibrary;
+			target = AA72F059CCE47181B3CFCE85C2A2CBF9 /* CFALibrary */;
+			targetProxy = 22ED8272649E23578F83C9B23FDE0557 /* PBXContainerItemProxy */;
+		};
+		E4D29BE57B0E5C80ACFF26A60259B046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CFALibrary;
+			target = AA72F059CCE47181B3CFCE85C2A2CBF9 /* CFALibrary */;
+			targetProxy = 463D18C6E0A01BE045FE80AF71B68678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		166CC66E67AEB5D6225537C283925192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2164F93B0C4DCDFF03AD4E7287A87969 /* CFALibrary.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CFALibrary";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CFALibrary/ResourceBundle-CFALibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CFALibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		319E9B6CEC4129090F972723B33AFD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2164F93B0C4DCDFF03AD4E7287A87969 /* CFALibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CFALibrary/CFALibrary-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		372FF5048FF42C3A7A18B70A30D785C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0F145D5A13766482AE4D22523843DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52AA25AF768DD7C0D1F3C59F96A0429E /* Pods-CFALibrary_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4E5A6DCF551B803F7CE6016E748267FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2164F93B0C4DCDFF03AD4E7287A87969 /* CFALibrary.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CFALibrary";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CFALibrary/ResourceBundle-CFALibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CFALibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6A822C250A21C0B22C62AF84C94C2E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A738CD9500C8A86428E6B143D2ACD593 /* Pods-CFALibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70F0378D63DE3D2DCC739550669BD46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AEF34A7E8D9CF678376828D2F8AA9150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73499CE7F64C385F15728E3E493BC38E /* Pods-CFALibrary_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C4BB859B554DA74EAC6B0609AF91EE33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2164F93B0C4DCDFF03AD4E7287A87969 /* CFALibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CFALibrary/CFALibrary-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FDE7097D21143BB8FCB08930433EF19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C19F6CB304C99F759FD47BFC65574134 /* Pods-CFALibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05EB16EE2150002A142B49E074AE476B /* Build configuration list for PBXNativeTarget "CFALibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BB859B554DA74EAC6B0609AF91EE33 /* Debug */,
+				319E9B6CEC4129090F972723B33AFD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F0378D63DE3D2DCC739550669BD46A /* Debug */,
+				372FF5048FF42C3A7A18B70A30D785C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BECF786A317AA813761B265DB2DAA1A /* Build configuration list for PBXNativeTarget "Pods-CFALibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A822C250A21C0B22C62AF84C94C2E0E /* Debug */,
+				FDE7097D21143BB8FCB08930433EF19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E271DFB1981E80F750CA2C3133D872 /* Build configuration list for PBXNativeTarget "CFALibrary-CFALibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5A6DCF551B803F7CE6016E748267FD /* Debug */,
+				166CC66E67AEB5D6225537C283925192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE05EF833B36F18225A3063CD8CD2F98 /* Build configuration list for PBXNativeTarget "Pods-CFALibrary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0F145D5A13766482AE4D22523843DA /* Debug */,
+				AEF34A7E8D9CF678376828D2F8AA9150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

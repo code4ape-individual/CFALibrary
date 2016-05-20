@@ -1,12 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
 
-target 'CFALibrary_Example', :exclusive => true do
+target 'CFALibrary_Example' do
   pod 'CFALibrary', :path => '../'
 end
 
-target 'CFALibrary_Tests', :exclusive => true do
+target 'CFALibrary_Tests' do
   pod 'CFALibrary', :path => '../'
-
-  
 end

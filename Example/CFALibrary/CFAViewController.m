@@ -8,6 +8,8 @@
 
 #import "CFAViewController.h"
 
+#import <UIColor+CFA.h>
+
 @interface CFAViewController ()
 
 @end
@@ -17,7 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.view.backgroundColor = [UIColor randomColor];
+    
 }
 
 - (void)didReceiveMemoryWarning
